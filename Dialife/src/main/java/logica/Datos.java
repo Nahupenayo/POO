@@ -12,6 +12,7 @@ import javax.persistence.Id;
 public class Datos implements Serializable {
     @Id
    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    private int id;
     private double altura;
     private double peso;
     private double presion;
@@ -26,6 +27,13 @@ public class Datos implements Serializable {
         this.peso = peso;
         this.glucosa = glucosa;
         this.medicamentos = medicamentos;
+    }
+        public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public double getAltura() {

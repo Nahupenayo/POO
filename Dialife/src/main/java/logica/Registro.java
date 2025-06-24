@@ -10,6 +10,7 @@ import javax.persistence.OneToOne;
 public class Registro {
    @Id 
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
+   private int id;
     private String nombre;
     private String apellido;
     private int edad;
@@ -26,6 +27,13 @@ public class Registro {
         this.edad = edad;
         this.documento = documento;
         this.datosUsuario = datosUsuario;
+    }
+     public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getNombre() {

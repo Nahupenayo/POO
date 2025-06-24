@@ -127,6 +127,11 @@ public class DatosUsuario extends javax.swing.JFrame {
         );
 
         btnGuardar.setText("Guardar");
+        btnGuardar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnGuardarActionPerformed(evt);
+            }
+        });
 
         jLabel9.setIcon(new javax.swing.ImageIcon("C:\\Users\\nahup\\Downloads\\diabetes.png")); // NOI18N
         jLabel9.setText("jLabel9");
@@ -179,6 +184,18 @@ public class DatosUsuario extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnGuardarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnGuardarActionPerformed
+      String altura = txt5.getText();
+      String peso = txt6.getText();
+      String presion = txt7.getText();
+      String glucosa = txt8.getText();
+      String medicamento = (String) cmb1.getSelectedItem();
+      
+        
+        
+     
+    }//GEN-LAST:event_btnGuardarActionPerformed
 
     
     // Variables declaration - do not modify//GEN-BEGIN:variables

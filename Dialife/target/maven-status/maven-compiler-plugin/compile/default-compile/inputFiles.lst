@@ -1,5 +1,14 @@
+C:\Users\nahup\Documents\NetBeansProjects\Dialife\src\main\java\dialife\Dialife.java
 C:\Users\nahup\Documents\NetBeansProjects\Dialife\src\main\java\igu\CalculoSpeed.java
 C:\Users\nahup\Documents\NetBeansProjects\Dialife\src\main\java\igu\DatosUsuario.java
 C:\Users\nahup\Documents\NetBeansProjects\Dialife\src\main\java\igu\Principal.java
 C:\Users\nahup\Documents\NetBeansProjects\Dialife\src\main\java\igu\RegistroUsuario.java
-C:\Users\nahup\Documents\NetBeansProjects\Dialife\src\main\java\logica\Dialife.java
+C:\Users\nahup\Documents\NetBeansProjects\Dialife\src\main\java\logica\Controladora.java
+C:\Users\nahup\Documents\NetBeansProjects\Dialife\src\main\java\logica\Datos.java
+C:\Users\nahup\Documents\NetBeansProjects\Dialife\src\main\java\logica\Registro.java
+C:\Users\nahup\Documents\NetBeansProjects\Dialife\src\main\java\persistencia\ControladoraPersistencia.java
+C:\Users\nahup\Documents\NetBeansProjects\Dialife\src\main\java\persistencia\DatosJpaController.java
+C:\Users\nahup\Documents\NetBeansProjects\Dialife\src\main\java\persistencia\exceptions\IllegalOrphanException.java
+C:\Users\nahup\Documents\NetBeansProjects\Dialife\src\main\java\persistencia\exceptions\NonexistentEntityException.java
+C:\Users\nahup\Documents\NetBeansProjects\Dialife\src\main\java\persistencia\exceptions\PreexistingEntityException.java
+C:\Users\nahup\Documents\NetBeansProjects\Dialife\src\main\java\persistencia\RegistroJpaController.java
